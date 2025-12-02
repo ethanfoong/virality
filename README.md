@@ -26,10 +26,5 @@ A compact project that explores and models article virality using the UCI Online
 - Column names in the original CSV contain leading spaces (e.g., `" shares"`) — scripts reference these names. If you rename/clean column names, update scripts accordingly or normalize names early (recommended).
 - `src/step6_clustering.py` expects `features_complete.csv` (PCA components for headline text like `headline_pc*` plus engineered features). If that file is missing, the script raises a FileNotFoundError.
 
-.
-
 ## Contact
-For questions about the project, open an issue or reach out to the repo owner.
-
----
-Generated: concise one-page README to help run and understand the pipeline.
+For questions about the project, open an issue or reach out to ethanfoong@berkeley.edu
